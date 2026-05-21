@@ -1,0 +1,16 @@
+.label
+{
+    font-family:sans-serif;
+    font-size:30px;
+    color: red;
+}
+
+.bgcolor
+{
+    background-color:var(--primary);
+}
+
+:root
+{
+    --primary:pink;
+}
