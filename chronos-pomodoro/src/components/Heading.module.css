@@ -1,0 +1,8 @@
+.heading {
+  /*margin: 3.2rem 0; /*vertical e horizontal*/
+  display: flex; /*transforma o elemento em um container flexível e muda 
+  como seus elementos filhos são posicionados*/
+  align-items: center; /*Alinha os itens no eixo cruzado (vertical - cima -> baixo) */
+  justify-content: center; /*Alinha os items no eixo princial (horizontal - esquerda -> direita)*/
+  gap: 2.4rem; /*Espaçamento entre meus elementos*/
+}
