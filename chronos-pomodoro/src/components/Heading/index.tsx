@@ -1,4 +1,4 @@
-import style from "./Heading.module.css";
+import style from "./style.module.css";
 
 type HeadingPropos = {
   children: React.ReactNode;
