@@ -23,3 +23,14 @@ body {
   background: var(--gray-900);
   color: var(--text-default);
 }
+
+.container {
+  max-width: 98rem; /*98rem * 16px = 1568px*/
+  margin: 0 auto;
+}
+.container-fluid {
+  max-width: auto;
+}
+.content {
+  margin: 3.2rem;
+}
