@@ -9,9 +9,6 @@ export function Heading({ children }: HeadingPropos) {
   return (
     <>
       <h1 className={style.heading}>{children}</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, aliquid.
-      </p>
     </>
   );
 }
