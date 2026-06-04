@@ -1,0 +1,30 @@
+.logo {
+  /*background-color: blue;*/
+  display: flex; /*Tranforma o elemento em um container flexível - faz com que os elementos filhos fiquem organizados em uma única linha por padrão*/
+  align-items: center; /*alinha os items no eixo transversal - como o flexbox está em linha(row) por padrão, o eixo tranversal é o vertical*/
+  justify-content: center; /*alunha os items no eixo principal - como a direção padrão ]e horizontal (row), ele centraliza os elementos horizontalmente*/
+  padding-top: 3.2rem;
+}
+
+.logo-link {
+  /*background-color: red;*/
+  display: flex;
+  font-size: 4.2rem;
+  font-weight: bold;
+  gap: 0.4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary);
+  transition: all 0.5s ease-in-out;
+}
+
+.logo-link svg {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+.logo-link:hover {
+  filter: brightness(50%);
+}

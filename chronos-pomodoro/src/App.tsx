@@ -1,11 +1,16 @@
-export function App()
-{
-    return (<>
-        <h1>Olá Mundo!</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus id repellat atque natus dignissimos modi cumque obcaecati magnam nobis libero et inventore minima alias repellendus ullam commodi, officiis accusamus sint!
-        </p>
-    </>);
+import "./styles/global.css";
+import "./styles/theme.css";
+import { Container } from "./components/Container";
+import { Logo } from "./components/Logo";
+
+export function App() {
+  return (
+    <>
+      <Container>
+        <Logo />
+      </Container>
+    </>
+  );
 }
 // export default App; //desta forma, tenho a possibilidade de ter nomear como vários nomes
 // export { App } //desta forma, definimos que será somente deste jeito este componente
