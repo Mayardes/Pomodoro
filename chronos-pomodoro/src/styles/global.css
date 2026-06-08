@@ -34,3 +34,19 @@ body {
 .content {
   margin: 3.2rem;
 }
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  flex-direction: column;
+}
+
+.formRow {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  gap: 1.2rem;
+  flex-direction: column;
+}
